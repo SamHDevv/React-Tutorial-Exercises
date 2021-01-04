@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://fcf01d33-62cf-480e-979a-d8498f21d4ee.ws-eu03.gitpod.io",
+    "address": "https://d6bf5909-8774-4018-b312-02f1b8d12c3e.ws-eu03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -80,7 +80,7 @@
         {
             "slug": "01.4-building-a-layout",
             "title": "01.4-building-a-layout",
-            "done": false,
+            "done": true,
             "path": "exercises/01.4-building-a-layout",
             "translations": [
                 "es",

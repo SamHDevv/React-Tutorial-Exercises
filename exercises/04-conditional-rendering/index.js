@@ -3,13 +3,16 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Alert = props => {
-	//add the condition inside this function
+	if (props.show === false) {
+        return null;
+    } else {
+            return (
+                <div className="alert alert-danger" role="alert">
+                    {props.text}
+                </div>
+            );
 
-	return (
-		<div className="alert alert-danger" role="alert">
-			This is a primary alert-check it out!
-		</div>
-	);
+    }
 };
 Alert.propTypes = {
 	color: PropTypes.string,
